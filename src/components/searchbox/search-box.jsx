@@ -1,5 +1,7 @@
 import { Component } from "react";
 import PropTypes from "prop-types";
+
+import "./search-box.css";
 export default class SearchBox extends Component {
   render() {
     const { onSearchChange } = this.props;
